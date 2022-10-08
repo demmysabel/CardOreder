@@ -72,7 +72,7 @@ public class NegativeTests {
     }
 
     @Test
-    void shouldBeEmptyForm() {
+    void shouldSendEmptyForm() {
         $("[data-test-id=name] input").setValue("");
         $("[data-test-id=phone] input").setValue("");
         $("[data-test-id=agreement]").click();
