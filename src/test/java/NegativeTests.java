@@ -14,7 +14,7 @@ public class NegativeTests {
 
     @Test
     void shouldBeIncorrectName() {
-        $("[data-test-id=name] input").setValue("Ivanov");
+        $("[data-test-id=name] input").setValue("Petrov");
         $("[data-test-id=phone] input").setValue("+79261234567");
         $("[data-test-id=agreement]").click();
         $("[type=button]").click();
